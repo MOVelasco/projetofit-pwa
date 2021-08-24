@@ -1,0 +1,39 @@
+<!-- <div class="fundo">
+    <img width="300" alt="Logo Projeto Fit App" src="/assets/logo.png" />
+    <div mat-dialog-content class="container">
+        <p>Entre com o seu <b>usuário</b> e <b>senha</b></p>
+        <mat-form-field appearance="fill">
+            <label>Usuário: </label>
+            <input matInput>
+            <label>Senha: </label>
+            <input matInput type="password">
+        </mat-form-field>
+    </div>
+    <div mat-dialog-actions class="container">
+        <button mat-button (click)="fecharDialago()">Cancelar</button>
+        <button mat-button [mat-dialog-close]="data.animal" cdkFocusInitial>Ok</button>
+        <button mat-button [routerLink]="['/home']" (click)="fecharDialago()">Ok</button>
+    </div>
+</div> -->
+<div class="container">
+    <img width="300" alt="Logo Projeto Fit App" src="/assets/logo.png" />
+    <!-- <div mat-dialog-content class="container"> -->
+    <h3 class="title">Entre com o seu <b>usuário</b> e <b>senha</b></h3>
+    <div class="two column row">
+        <div class="column field">
+            <label for="login">Login: </label>
+            <input type="text" id="login" name="login" placeholder="Login">
+        </div>
+
+        <div class="column field">
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" name="senha" placeholder="senha">
+        </div>
+    </div>
+    <!-- </div> -->
+    <!-- <div mat-dialog-actions class="container"> -->
+    <button mat-button (click)="fecharDialago()">Cancelar</button>
+
+    <button mat-button [routerLink]="['/cadastroAluno']" (click)="fecharDialago()">Ok</button>
+    <!-- </div> -->
+</div>

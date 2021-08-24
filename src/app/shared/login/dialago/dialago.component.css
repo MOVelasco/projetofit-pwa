@@ -1,0 +1,16 @@
+.fundo {
+    background-color:navy !important;
+    padding: 0px !important;
+}
+
+.mat-dialog-container {
+    padding: 0px !important;
+    background-color:navy !important;
+}
+
+.container { 
+    text-align: center;
+    padding: 0px !important;
+    color: blanchedalmond;
+    background-color: rgb(54, 52, 52);
+}
